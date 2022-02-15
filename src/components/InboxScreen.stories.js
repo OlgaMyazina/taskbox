@@ -50,7 +50,7 @@ Default.play = async ({ canvasElement }) => {
 };
 
 export const Error = Template.bind({})
-Default.parameters = {
+Error.parameters = {
   msw: {
     handlers: [
       rest.get(
